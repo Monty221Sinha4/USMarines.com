@@ -118,7 +118,12 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Global.asax" />
+    <Content Include="Images\US 1.gif" />
+    <Content Include="Images\us mARINE 2.jpg" />
     <Content Include="Images\US Marines 1.jpg" />
+    <Content Include="Images\USA 3.jpg" />
+    <Content Include="Images\USA Army 1.jpg" />
+    <Content Include="Images\USA Crops 1.jpg" />
     <Content Include="Images\USA Marines 2.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -133,10 +138,13 @@
     <Content Include="Scripts\jquery-3.6.0.slim.min.js" />
     <Content Include="Web.config" />
     <Content Include="Views\Shared\_LayoutPage1.cshtml" />
+    <Content Include="Views\Home\Home.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -178,7 +186,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
