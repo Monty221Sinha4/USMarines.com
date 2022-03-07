@@ -124,6 +124,9 @@
     <Content Include="Images\Korean War 2.jpg" />
     <Content Include="Images\US 1.gif" />
     <Content Include="Images\us mARINE 2.jpg" />
+    <Content Include="Images\US MaRINE 5.jpg" />
+    <Content Include="Images\US Marine 6.jpg" />
+    <Content Include="Images\US Marine 7.jpg" />
     <Content Include="Images\US Marines 1.jpg" />
     <Content Include="Images\USA 12.jpg" />
     <Content Include="Images\USA 3.jpg" />
@@ -186,6 +189,7 @@
     <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="Scripts\jquery-3.6.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.6.0.min.map" />
+    <Content Include="Views\Home\Life.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
